@@ -1,31 +1,33 @@
-# Weather Data Management System (Java)
+# Student Record System 
 
-This program stores and manages yearly temperature data for multiple cities using:
-
-Dense Matrix (2D Array)
-
-Sparse Map (HashMap)
-
-Multithreading (Loader animation)
-
-Row-wise & Column-wise Traversal
-
-Time & Space Complexity Analysis
-
-It provides an interactive menu to insert, retrieve, delete, and analyze weather records.
+This is a Java-based file-handling student record system that allows you to store, read, update, search, sort, and delete student data. Records are saved in students.txt using text file I/O and loaded automatically when the program starts.
 
 ⭐ Features
 
-Insert temperature data
+Add new student
 
-Retrieve weather record
+View all students
 
-Delete a record
+Search student by name
 
-Row-major & column-major traversal
+Delete student by name
 
-Compare traversal times
+Sort students by marks
 
-View space usage of dense vs sparse structures
+Save all records to file
 
-Loader animation using threads
+Load records from file
+
+RandomAccessFile demo (reads first line)
+
+🛠 Technologies Used
+
+Java
+
+File Handling (BufferedReader, BufferedWriter, RandomAccessFile)
+
+ArrayList
+
+Sorting with Comparator
+
+Iterator for deletion
